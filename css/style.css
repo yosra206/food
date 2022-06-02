@@ -1,0 +1,244 @@
+*{
+    margin: 0; padding: 0;
+}
+html{
+    background-color: white; color: #555; 
+    font-size: 16px; font-family:Lato ;
+}
+
+header{
+    height: 100vh;
+    background-image:linear-gradient(  rgba(0,0,0,.7) ,rgba(0,0,0,.7)  ) , url(../images/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+}
+
+.hero-box{
+    position: absolute; left: 20%; top: 40%;
+}
+
+h1{
+    color: #fff; font-size: 200%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.btn{
+    border: solid 1px #E67E22;
+    padding: 10px 20px;
+    margin-right: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #E67E22;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #E67E22;
+}
+
+.logo{
+    float: left; height: 100px;
+    margin-top: 20px;
+}
+.main-nav{
+    float: right;
+    margin-top: 60px;
+    list-style: none;
+}
+.main-nav li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-nav li a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-nav li a:hover{
+    text-decoration: underline;
+    color: #E67E22;
+}
+
+section{
+    padding: 40px 0px;
+}
+
+h2{
+    text-align: center;
+    font-size: 150%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2::after{
+    content: '';
+    display: block;
+    width: 100px; height: 5px;
+    background-color: #E67E22;
+    margin: 25px auto;
+}
+
+.feat-p{
+    text-align: center;
+    width: 60%;
+    margin-left:20%;
+    margin-bottom: 30px;
+}
+
+.box i{
+    color: #E67E22 ; font-size: 30px;
+    margin-left: 50px; margin-bottom: 10px;
+}
+.box h3{
+   font-size: 120%; margin-bottom: 10px;
+}
+.box p{
+   line-height: 150%;
+}
+
+
+.meal{
+   padding: 0;
+   margin-bottom: -40px;
+   background-color: black;
+   overflow: hidden;
+}
+
+.meal img{
+    width: 100%;
+    opacity: .5;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.meal img:hover{
+    opacity: 1;
+    transform: scale(1);
+}
+.works{
+    background-color: whitesmoke;
+}
+.phone{
+    margin-left:400px ;
+}
+.work-main{
+    margin-left: 120px;
+}
+.work-main ol{
+    margin-left: 120px;
+}
+.work-main li{
+    margin-left: -30px;
+   line-height: 30px;
+}
+.svg{
+    margin-bottom: 150px;
+    margin-left: 100px;
+}
+.android{
+    margin-bottom: 150px;
+}
+.city img{
+    width:100% ;
+}
+.info{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.info i{
+    color:#E67E22;
+    margin-right: 10px;
+}
+.testimonials{
+   color: #fff;
+    background-image:linear-gradient(  rgba(0,0,0,.7) ,rgba(0,0,0,.7)  ) , url(../images/back-customers.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+blockquote::before{
+display: block;
+content:'\201c' ;
+font-size: 500%;
+}
+blockquote{
+    font-style: italic;
+    line-height: 150%;
+    margin-top: 10px;
+}
+cite{
+    display: block;
+    margin-top: 20px;
+}
+cite img{
+    height:50px ; border-radius: 50%;
+    vertical-align: middle;
+    margin-right:10px ;
+}
+input,textarea,select{
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+}
+input[type=checkbox]{
+    width: 10%;
+}
+.send{
+    padding:10px 20px ;
+    background-color: #E67E22;
+    color: #fff;
+    border-radius: 20px;
+}
+.send:hover{
+    background-color:#fff;
+    color: #E67E22;
+ 
+}
+footer{
+    background-color: #333333;
+    padding:20px 0 ;
+}
+footer p{
+    color: #888;
+    text-align: center;
+}
+.footer-nav{
+    float: left;
+    list-style: none;
+}
+.footer-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: #888888;
+}
+.footer-nav li a:hover{
+    text-decoration: underline;
+    color: #ddd;
+}
+.social-nav{
+    float: right;
+    list-style: none;
+}
+.social-nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-nav li a{
+    text-decoration: none;
+    color: #888888;
+}
+.social-nav li a:hover{
+    text-decoration: underline;
+    color: #ddd;
+}
+
+
